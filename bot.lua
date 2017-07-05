@@ -309,6 +309,8 @@ function tdcli_update_callback(data)
 						naji = "botBOT-IDsupergroups"
 					elseif matches == "لینک" then
 						naji = "botBOT-IDsavedlinks"
+					elseif matches == "ویت" then
+						naji = "botBOT-IDwaitelinks"
 					elseif matches == "مدیر" then
 						naji = "botBOT-IDadmin"
 					else
